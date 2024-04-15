@@ -11,7 +11,7 @@ public class Question3
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.println("Please enter an integer: ");
+    System.out.print("Please enter an integer: ");
     int userInt = in.nextInt();
 
     
