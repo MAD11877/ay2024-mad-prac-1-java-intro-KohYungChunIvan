@@ -28,13 +28,13 @@ public class Question5
      
     Scanner in = new Scanner(System.in);
         
-        System.out.print("Enter number of integers: ");
+        System.out.print("");
         int num = in.nextInt();
         int[] list = new int[num]; // Array to store the input numbers
         
         // Prompt the user for each integer and populate the list array
         for(int i = 0; i < num; i++) {
-            System.out.print("Enter an integer: ");
+            System.out.print("");
             list[i] = in.nextInt();
         }
         
@@ -55,7 +55,7 @@ public class Question5
             }
         }
         
-        System.out.println("The mode is: " + mode);
+        System.out.println(mode);
 
     
   }
